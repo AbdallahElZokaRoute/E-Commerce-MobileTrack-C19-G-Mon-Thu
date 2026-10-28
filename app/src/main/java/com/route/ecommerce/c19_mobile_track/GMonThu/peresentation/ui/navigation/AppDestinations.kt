@@ -20,5 +20,8 @@ object AppRoutes {
 
         @Serializable
         class ProductList(val categoryId: String?)
+
+        @Serializable
+        object Cart
     }
 }

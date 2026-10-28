@@ -56,6 +56,7 @@ fun HomeScreen(modifier: Modifier = Modifier) {
     val productState = viewModel.productsState.collectAsStateWithLifecycle()
     val categoriesState = viewModel.categoriesState.collectAsStateWithLifecycle()
     val context = LocalContext.current
+    val navController = LocalNavController.current
     LaunchedEffect(Unit) {
         viewModel.getCategories()
     }
@@ -78,7 +79,9 @@ fun HomeScreen(modifier: Modifier = Modifier) {
     Column(modifier = modifier.fillMaxSize()) {
         SearchAppBar(searchQuery = searchQuery, onValueChanged = {
             searchQuery = it
-        }, onCartClicked = {})
+        }, onCartClicked = {
+            navController.navigate(AppRoutes.Main.Cart)
+        })
         Image(
             painter = painterResource(R.drawable.pager_image),
             modifier = Modifier

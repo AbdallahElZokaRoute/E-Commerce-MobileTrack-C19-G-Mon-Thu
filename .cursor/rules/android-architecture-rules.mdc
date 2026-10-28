@@ -1,0 +1,14 @@
+---
+alwaysApply: true
+---
+
+** Apply Clean Arcihecture (Domain - Data - Presentation ) **
+    While Implementing please regard no inner models and no inner classes for the clean architecture structure each class is flattend and UseCases
+
+** Using Retrofit and KotlinX Serialization and Deserialization for each endpoint created **
+
+** Using Dagger Hilt As our dependency Injection library and please favor Constructor Injection **
+
+** I Need you to use safeApiCall function from the current path 'data/api/'SafeApiCall.kt ** 
+
+Please make sure no syntax errors

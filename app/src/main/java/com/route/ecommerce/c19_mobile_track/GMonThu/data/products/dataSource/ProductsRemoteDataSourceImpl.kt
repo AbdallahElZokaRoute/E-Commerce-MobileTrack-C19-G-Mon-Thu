@@ -1,6 +1,6 @@
 package com.route.ecommerce.c19_mobile_track.GMonThu.data.products.dataSource
 
-import com.route.ecommerce.c19_mobile_track.GMonThu.api.safeAPICall
+import com.route.ecommerce.c19_mobile_track.GMonThu.data.api.safeAPICall
 import com.route.ecommerce.c19_mobile_track.GMonThu.data.products.dataSource.api.ProductsService
 import com.route.ecommerce.c19_mobile_track.GMonThu.data.products.mapper.toDomain
 import com.route.ecommerce.c19_mobile_track.GMonThu.data.utils.mapResource

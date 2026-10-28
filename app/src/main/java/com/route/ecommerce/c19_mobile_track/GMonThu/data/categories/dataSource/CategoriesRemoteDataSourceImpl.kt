@@ -1,7 +1,7 @@
 package com.route.ecommerce.c19_mobile_track.GMonThu.data.categories.dataSource
 
 import com.route.ecommerce.c19_mobile_track.GMonThu.data.categories.dataSource.api.CategoriesService
-import com.route.ecommerce.c19_mobile_track.GMonThu.api.safeAPICall
+import com.route.ecommerce.c19_mobile_track.GMonThu.data.api.safeAPICall
 import com.route.ecommerce.c19_mobile_track.GMonThu.data.categories.mapper.toDomain
 import com.route.ecommerce.c19_mobile_track.GMonThu.data.utils.mapResource
 import com.route.ecommerce.c19_mobile_track.GMonThu.domain.categories.entity.CategoryEntity

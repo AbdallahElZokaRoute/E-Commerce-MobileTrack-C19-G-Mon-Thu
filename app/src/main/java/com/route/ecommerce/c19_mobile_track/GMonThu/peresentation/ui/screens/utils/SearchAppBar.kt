@@ -1,6 +1,7 @@
 package com.route.ecommerce.c19_mobile_track.GMonThu.peresentation.ui.screens.utils
 
 import androidx.compose.foundation.Image
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
@@ -52,7 +53,8 @@ fun SearchAppBar(
             //Cart
             Image(
                 painter = painterResource(R.drawable.cart),
-                contentDescription = stringResource(R.string.cart_image)
+                contentDescription = stringResource(R.string.cart_image),
+                modifier = Modifier.clickable(true, onClick = onCartClicked)
             )
         }
     }

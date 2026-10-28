@@ -16,6 +16,7 @@ val Typography = Typography(
     titleMedium = TextStyle(
         fontSize = 18.sp,
         fontWeight = FontWeight.Medium,
+        lineHeight = 18.sp,
         letterSpacing = (-0.17).sp
     ),
     titleSmall = TextStyle(
@@ -28,6 +29,18 @@ val Typography = Typography(
         fontSize = 14.sp,
         lineHeight = 18.sp,
         fontWeight = FontWeight.Normal,
+        letterSpacing = (-0.17).sp
+    ),
+    titleLarge = TextStyle(
+        fontWeight = FontWeight.SemiBold,
+        fontSize = 24.sp,
+        lineHeight = 18.sp,
+        letterSpacing = (-0.17).sp
+    ),
+    displaySmall = TextStyle(
+        fontWeight = FontWeight.Light,
+        fontSize = 16.sp,
+        lineHeight = 18.sp,
         letterSpacing = (-0.17).sp
     )
     /* Other default text styles to override

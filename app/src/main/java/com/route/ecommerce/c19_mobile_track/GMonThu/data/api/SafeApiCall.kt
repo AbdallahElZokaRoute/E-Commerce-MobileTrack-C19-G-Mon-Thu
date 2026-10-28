@@ -1,7 +1,7 @@
-package com.route.ecommerce.c19_mobile_track.GMonThu.api
+package com.route.ecommerce.c19_mobile_track.GMonThu.data.api
 
 import android.util.Log
-import com.route.ecommerce.c19_mobile_track.GMonThu.api.model.ErrorModel
+import com.route.ecommerce.c19_mobile_track.GMonThu.data.api.model.ErrorModel
 import com.route.ecommerce.c19_mobile_track.GMonThu.domain.utils.ApiResult
 import com.route.ecommerce.c19_mobile_track.GMonThu.domain.utils.AppExceptions
 import kotlinx.coroutines.flow.Flow
